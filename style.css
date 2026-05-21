@@ -882,3 +882,21 @@ body {
     text-align: center;
   }
 }
+.e-square-logo img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+}
+
+.e-square-logo img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  transform: translate(-12px, -6px);
+}
+.e-square-logo.sm img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  transform: translate(-12px, -6px);
+}
