@@ -196,7 +196,7 @@ body{font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
   <!-- NAV -->
   <nav class="nav">
     <a href="#home" class="logo">
-      <div class="e-square-logo">☁</div>
+      <img src="logo.jpg" style="width:40px;height:40px;border-radius:8px;object-fit:cover;">
       <span class="logo-text">AWS Student Builder Group</span>
     </a>
     <div class="nav-links">
@@ -253,12 +253,12 @@ body{font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
       </div>
       <div class="cards">
         <div class="card reveal" style="transition-delay:0.15s">
-          <div class="card-icon">H</div>
+          <div class="card-icon">W</div>
           <h3>Workshops &amp; Events</h3>
           <p>We organize workshops, hackathons, and technical sessions that help students learn through practical experience.</p>
         </div>
         <div class="card reveal" style="transition-delay:0.2s">
-          <div class="card-icon">B</div>
+          <div class="card-icon">E</div>
           <h3>Emerging Technologies</h3>
           <p>Members explore domains like Cloud Computing, AI &amp; ML, Cybersecurity, IoT, and Blockchain Technology.</p>
         </div>
@@ -268,7 +268,7 @@ body{font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
           <p>Casual hangouts to share projects and ideas.</p>
         </div>
         <div class="card reveal" style="transition-delay:0.3s">
-          <div class="card-icon">M</div>
+          <div class="card-icon">C</div>
           <h3>Collaborative Learning</h3>
           <p>We encourage teamwork, peer learning, and collaborative projects that reflect industry practices.</p>
         </div>
@@ -374,40 +374,30 @@ body{font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
       </div>
     </section>
 
-    <!-- GALLERY -->
-    <section class="gallery" id="gallery">
+
+<section class="gallery" id="gallery">
       <h2>Moments</h2>
       <div class="gallery-grid">
-        <div class="gallery-item g1 reveal">
+        <div class="gallery-item reveal" style="background-image:url('1.JPG');background-size:cover;background-position:center;">
           <span>Inauguration</span>
         </div>
-        <div class="gallery-item g2 reveal" style="transition-delay:0.05s">
-          <span>Recruitment</span>
+        <div class="gallery-item reveal" style="background-image:url('2.JPG');background-size:cover;background-position:center;transition-delay:0.05s">
+          <span>WorkShop</span>
         </div>
-        <div class="gallery-item g3 reveal" style="transition-delay:0.1s">
-          <span>Department</span>
-        </div>
-        <div class="gallery-item g4 reveal" style="transition-delay:0.15s">
+        <div class="gallery-item reveal" style="background-image:url('3.JPG');background-size:cover;background-position:center;transition-delay:0.1s">
           <span>Team</span>
         </div>
+        
         <div class="gallery-item many-more reveal" style="transition-delay:0.2s">
           <span>Many More...</span>
         </div>
-        <div class="gallery-item empty-slot reveal" style="transition-delay:0.25s">
-          <span>Add Image</span>
-        </div>
-        <div class="gallery-item empty-slot reveal" style="transition-delay:0.3s">
-          <span>Add Image</span>
-        </div>
       </div>
     </section>
-  </main>
-
   <!-- FOOTER -->
-  <footer class="footer">
+  <!-- <footer class="footer">
     <div class="footer-inner">
       <div class="footer-brand">
-        <div class="e-square-logo" style="width:32px;height:32px;font-size:16px">☁</div>
+        <img src="logo.jpg" style="width:40px;height:40px;border-radius:8px;object-fit:cover;">
         <span class="logo-text">AWS Student Builder Group</span>
       </div>
       <div class="footer-links">
@@ -416,8 +406,104 @@ body{font-family:"Inter",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
         <a href="#">GitHub</a>
       </div>
     </div>
-    <div class="footer-copy">2026 AWS Student Builder Group</div>
-  </footer>
+    <div class="footer-copy">2026 AWS Student Builder Group</div> -->
+
+    <footer class="footer" style="padding:0;">
+
+  <!-- MAIN FOOTER -->
+  <div style="display:grid;grid-template-columns:0.8fr 0.7fr 0.9fr 1.4fr;gap:24px;max-width:1200px;margin:0 auto;padding:36px 5% 28px;align-items:start;">
+
+    <!-- LOGO + DESC -->
+    <div>
+      <img src="logo.jpg" style="width:64px;height:64px;object-fit:cover;border-radius:10px;margin-bottom:12px;">
+      <p style="color:#a1a1aa;font-size:13px;line-height:1.6;">Empowering students to learn, build and innovate in the cloud with AWS.</p>
+    </div>
+
+    <!-- QUICK LINKS -->
+    <div>
+      <p style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#8b5cf6;margin-bottom:12px;">Quick Links</p>
+      <div style="width:28px;height:2px;background:#8b5cf6;margin-bottom:14px;"></div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <a href="#home" style="color:#a1a1aa;text-decoration:none;font-size:13px;" onmouseover="this.style.color='#8b5cf6'" onmouseout="this.style.color='#a1a1aa'">Home</a>
+        <a href="#about" style="color:#a1a1aa;text-decoration:none;font-size:13px;" onmouseover="this.style.color='#8b5cf6'" onmouseout="this.style.color='#a1a1aa'">About Us</a>
+        <a href="#events" style="color:#a1a1aa;text-decoration:none;font-size:13px;" onmouseover="this.style.color='#8b5cf6'" onmouseout="this.style.color='#a1a1aa'">Events</a>
+        <a href="#gallery" style="color:#a1a1aa;text-decoration:none;font-size:13px;" onmouseover="this.style.color='#8b5cf6'" onmouseout="this.style.color='#a1a1aa'">Gallery</a>
+      </div>
+    </div>
+
+    <!-- CONNECT WITH US -->
+    <div>
+      <p style="font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:#8b5cf6;margin-bottom:12px;">Connect With Us</p>
+      <div style="width:28px;height:2px;background:#8b5cf6;margin-bottom:14px;"></div>
+      <div style="display:flex;flex-direction:column;gap:10px;">
+        <a href="https://github.com/awssbg-dsce" style="color:#a1a1aa;text-decoration:none;font-size:13px;display:flex;align-items:center;gap:8px;" onmouseover="this.style.color='#8b5cf6'" onmouseout="this.style.color='#a1a1aa'">
+          <div><div style="color:#e4e4e7;font-weight:600;font-size:12px;">GitHub</div><div style="font-size:11px;">@aws-community</div></div>
+        </a>
+        <a href="https://www.instagram.com/aws_sbg_dsce?igsh=azJ2Z3ZnNXM2YWRn" style="color:#a1a1aa;text-decoration:none;font-size:13px;display:flex;align-items:center;gap:8px;" onmouseover="this.style.color='#8b5cf6'" onmouseout="this.style.color='#a1a1aa'">
+          <div><div style="color:#e4e4e7;font-weight:600;font-size:12px;">Instagram</div><div style="font-size:11px;">@aws.community</div></div>
+        </a>
+        <a href="https://www.linkedin.com/company/aws-cloud-club-dsce/?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAb21jcAR_wyRleHRuA2FlbQIxMQBzcnRjBmFwcF9pZA81NjcwNjczNDMzNTI0MjcAAaexiKMW3u_cCpLw_rYHJEzn_MJxyfqMEQp4UCxCRfDCOEJLx1dBI9EGQmQ5SQ_aem_njmF1Ym6ZOZc5SSHitz9Bg" style="color:#a1a1aa;text-decoration:none;font-size:13px;display:flex;align-items:center;gap:8px;" onmouseover="this.style.color='#8b5cf6'" onmouseout="this.style.color='#a1a1aa'">
+          <div><div style="color:#e4e4e7;font-weight:600;font-size:12px;">LinkedIn</div><div style="font-size:11px;">AWS Community</div></div>
+        </a>
+      </div>
+    </div>
+
+    <!-- COLLAB CARD -->
+    <div style="background:linear-gradient(135deg,rgba(139,92,246,0.1),rgba(251,146,60,0.05));border:1px solid rgba(139,92,246,0.4);border-radius:14px;padding:20px 24px;position:relative;overflow:hidden;">
+      <div style="position:absolute;top:-1px;left:0;right:0;height:2px;background:linear-gradient(90deg,#8b5cf6,#fb923c);"></div>
+      <div style="font-size:24px;margin-bottom:8px;">✈️ ✦</div>
+      <h3 style="font-family:'Space Grotesk',sans-serif;font-size:18px;font-weight:700;color:#fff;margin-bottom:4px;">Let's Build<br><span style="color:#8b5cf6;">Something Amazing!</span></h3>
+      <p style="color:#a1a1aa;font-size:12px;line-height:1.6;margin-bottom:16px;">Have an idea or want to collaborate on something impactful? I'm just a DM away!</p>
+      <!-- <a href="mailto:erakshith001@gmail.com" style="display:flex;align-items:center;justify-content:center;gap:8px;background:transparent;border:1px solid rgba(139,92,246,0.6);color:#e4e4e7;text-decoration:none;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:10px 16px;border-radius:8px;transition:all 0.3s;width:100%;box-sizing:border-box;"
+        onmouseover="this.style.background='rgba(139,92,246,0.2)';this.style.borderColor='#8b5cf6'"
+        onmouseout="this.style.background='transparent';this.style.borderColor='rgba(139,92,246,0.6)'">
+        💬 DM Me For Collaboration
+      </a> -->
+
+      <a 
+  href="mailto:rakshith001@gmail.com?subject=Collaboration%20Request&body=Hey%20Rakshith,%20I%20would%20like%20to%20collaborate%20with%20you."
+  style="display:flex;align-items:center;justify-content:center;gap:8px;background:transparent;border:1px solid rgba(139,92,246,0.6);color:#e4e4e7;text-decoration:none;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:10px 16px;border-radius:8px;transition:all 0.3s;width:100%;box-sizing:border-box;"
+  onmouseover="this.style.background='rgba(139,92,246,0.2)';this.style.borderColor='#8b5cf6'"
+  onmouseout="this.style.background='transparent';this.style.borderColor='rgba(139,92,246,0.6)'"
+>
+  💬 DM Me For Collaboration
+</a>
+    </div>
+
+  </div>
+
+  <!-- DIVIDER -->
+  <div style="border-top:1px solid #27272a;"></div>
+
+  <!-- BUILT BY STRIP -->
+  <div style="max-width:1200px;margin:0 auto;padding:16px 5%;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;">
+    <div style="display:flex;align-items:center;gap:10px;background:#18181b;border:1px solid #27272a;border-radius:50px;padding:8px 16px;">
+      <span style="color:#fb923c;">✦</span>
+      <span style="color:#a1a1aa;font-size:12px;">Crafted with ☁ code and coffee by</span>
+      <span style="font-family:'Space Grotesk',sans-serif;font-size:15px;font-weight:700;background:linear-gradient(135deg,#a78bfa,#fb923c);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">Rakshith Gowda K</span>
+    </div>
+    <div style="display:flex;align-items:center;gap:10px;">
+      <div style="width:34px;height:34px;background:#18181b;border:1px solid #27272a;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:16px;">👤</div>
+      <div>
+        <div style="color:#e4e4e7;font-size:12px;font-weight:600;">Developer | Cloud Enthusiast | Problem Solver</div>
+        <div style="color:#a1a1aa;font-size:11px;">Building solutions. Empowering community.</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- DIVIDER -->
+  <div style="border-top:1px solid #27272a;"></div>
+
+  <!-- COPYRIGHT -->
+  <div style="text-align:center;padding:14px;display:flex;align-items:center;justify-content:center;gap:12px;flex-wrap:wrap;">
+    <span style="color:#a1a1aa;font-size:12px;">© 2026 AWS Student Builder Group. All rights reserved.</span>
+    <span style="color:#8b5cf6;">💜</span>
+    <span style="color:#a1a1aa;font-size:12px;">Made for learners, by learners.</span>
+  </div>
+
+</footer>
+<!-- 
+  </footer> -->
 </div>
 
 <script>
